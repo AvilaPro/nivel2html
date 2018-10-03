@@ -1,0 +1,91 @@
+/* .contenedor p{ --selector descendiente--
+	color: yellow;
+
+}
+ */
+/* .contenedor > p{ --selector hijo directo--
+	color: yellow;
+} */
+
+/*.contenedor p + p{ --selector hermano adyacente--
+	color: yellow;
+}*/
+
+/*.contenedor p ~ p{selector hermano general
+	color: yellow; 
+}
+*/
+
+.contenedor p ~ p{selector hermano general
+	color: yellow; 
+}
+li{
+	display: inline-block;
+	margin: 5px;
+	background: blue;
+	padding: 5px;
+}
+li a{
+	text-decoration: none;
+	color: white;
+}
+/*[] se usa para indicar qeu estamos en selectro tipo atributo*/
+/*selector atributo presente*/
+a[class], a[target]{
+	color: black;
+}
+/*selector atributo igual*/
+a[class="diferente"]{
+	background: black;
+}
+/*selector atributo contenido*/
+a[href*=".com"]{
+	background: yellow;
+}
+li a:hover{
+	color: pink;
+}
+/*link y visited son seudoclase para a*/
+/*li a:link{  
+	color: orange;
+}*/
+li a:active{
+	color: purple;
+}
+/*li a:visited{
+	background: blue;
+}*/
+/*el focus se usa generalmente en input y button*/
+input:focus{
+	background: yellow;
+}
+/*checked solo se puede usar en radio button y en checkbox*/
+input:checked{
+	display: none;
+}
+
+/*li:before{
+	content: '';
+	width: 10px;
+	height: 10px;
+	background: orange;
+	position: absolute;
+	top: 5px;
+	left: 400px;
+}*/
+/*primer hijo*/
+ul li:first-child{
+	background: red;
+}
+/*hijo especificando el orden*/
+ul li:nth-child(2){
+	background: green;
+}
+/*ultimo hijo*/
+ul li:last-child{
+	background: pink;
+}
+
+ul li:nth-child(2n){
+	background: lightblue;
+}
