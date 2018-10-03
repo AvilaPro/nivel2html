@@ -1,0 +1,11 @@
+Según la imagen que se adjunta, realizar las siguientes actividades:
+
+1.- Definir la estructura de la página web. 
+
+2.- Crear la estructura por medio de código HAML usando el siguiente link: https://www.haml-converter.com/.
+
+3.- Crear las secciones: inicio, portafolio, sobre mí, contacto. Nota: el portafolio debe estar orientado según el ejemplo en la imagen y pueden crear el contenido del resto de las secciones a su criterio.
+
+4.- Debe enviar tanto el código HAML como HTML.
+
+5.- Enviar los documentos empaquetados en un archivo comprimido.

@@ -1,0 +1,1 @@
+La versión para móvil no incluye la línea blanca que aparece debajo de "VER PORTAFOLIO" ni en "Servicio Web", se muestra de esa manera por el printscreen de la página.

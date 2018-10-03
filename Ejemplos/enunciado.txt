@@ -1,0 +1,12 @@
+Según las imágenes que se adjuntan, realizar las siguientes actividades:
+Nota: debe enviar solamente el CSS.
+
+1.- De la maqueta realizada en el desafío 1, debe eliminar las flotaciones y/o posiciones en el css para aplicar las propiedades de flexbox, manteniendo una correcta visualización de los elementos en sus tres versiones responsive.
+
+2.- Crear el layout de la página web en su versión desktop adjuntada como imagen y completar el archivo estilos.css.
+
+3.- Crear un punto de quiebre en las resoluciones menores a 480px según la interfaz para móvil. 
+
+4.- Usar media query en las resoluciones menores a 768px según la interfaz para tablet. 
+
+5.- Posicionar y alinear los elementos con flexbox, no debe usar float o position en su CSS. 

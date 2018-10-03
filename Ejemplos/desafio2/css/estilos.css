@@ -1,0 +1,17 @@
+/*COLORES:
+		morado principal: #796AD9 | rgba(121,106,217,1) // aquí pueden usar el canal alfa para el color de fondo del banner
+		amarillo: #FFD770
+		azul: #89D9E8
+		rosado: #E15FE8
+		morado (servicio): #B285FF
+*/
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+.contenedor{
+	width: 90%;
+	margin: auto;
+}
