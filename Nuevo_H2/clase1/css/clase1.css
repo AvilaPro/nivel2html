@@ -1,0 +1,44 @@
+.internos{
+   /*  border-style: dashed;
+    border-color: blue;
+    border-width: 5px; */
+    border: 10px inset blue;
+    border-radius: 15px;
+    width: 33.33%;
+    /*height: 100px;*/
+    margin: 5px;
+    overflow: auto;
+}
+#fijado{
+    position: sticky;
+    top: 0;
+    /* position: fixed;
+    bottom: 0;
+    right: 0; */
+}
+.div2{
+    height: 222px;
+}
+p{
+    margin: auto;
+}
+button{
+    padding: 10px;
+    border-radius: 17px;
+    border-style: double;
+    border-color: cornflowerblue;
+    background-color: lightskyblue;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#paisaje{
+    float: left;
+    margin: 5px;
+    width: 40px;
+    height: 40px;
+}
+#coment{
+    /* clear: right; */
+}
