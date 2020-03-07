@@ -1,0 +1,14 @@
+Enunciado de la tarea 4 de la sección 2693
+
+Según la interfaz adjuntada, realizar las siguientes actividades:
+1.- Crear el html y CSS. La maquetación debe ser idéntica al diseño original.
+
+2.- Investigar los valores rotateY, rotateX y rotateZ de la propiedad transform de CSS3. Debe aplicar estas propiedades en alguna parte de la página web.
+
+3.- Investigar el valor linear-gradient y sus variantes. Debe aplicar los degradados según la interfaz.
+
+4.- Investigar y aplicar el efecto "parallax" en la página web y los "botones fantasmas" para los enlaces.
+
+5.- Usar transformaciones y transiciones, mínimo 3 de ellas. Además, los logos de los clientes deben ser modificados por medio de la propiedad filter para lograr una escala de grises y cuando el usuario pose el mouse sobre alguno de ellos, éste vuelva a sus colores originales.
+
+Descargar Archivo Adjunto

@@ -72,6 +72,7 @@ article img{
 	background: #00BCD4;
 }
 #banner h1{
+	width: 90%;
 	font-size: 70px;
 	color: white;
 	text-align: center;
@@ -91,6 +92,7 @@ aside{
 	background: #90CAF9;
 	float: right;
 	height: 700px;
+	text-align: center;
 }
 footer{
 	height: 80px;
@@ -100,5 +102,9 @@ footer{
 	clear: both;
 }
 #neg{
-	color: red;
+	/* color: red; */
+}
+h3{
+	color: coral;
+	margin-top: 100px;
 }

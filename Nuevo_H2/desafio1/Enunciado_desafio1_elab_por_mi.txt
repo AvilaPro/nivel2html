@@ -1,0 +1,13 @@
+Segun la imagen adjuntada como: "desafio1_html2.jpg", realizar las siguientes actividades. El archivo esta adjunto en el archivo con extension .rar que se adjunto.
+
+Nota: Adjunte lo visto en clases y otros archivos en una carpeta llamada tips que podran usar como apoyo para la realizacion de este desafio
+
+1. Crear los archivos: html y css. Enlazar la hoja de estilos con el html.
+
+2. Maquetar identicamente la pagina web mostrada en la imagen.
+
+3. Hacer uso de: margenes (margins), rellenos (padding), bordes (bordes) y alineaciones.
+
+4. Hacer uso de flotaciones (float) y posiciones relativas (positions)
+
+5. Combinar las etiquetas section, aside, footer correctamente para obtener el resultado esperado.

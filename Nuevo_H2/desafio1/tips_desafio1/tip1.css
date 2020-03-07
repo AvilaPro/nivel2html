@@ -1,0 +1,17 @@
+#ban h1{
+	width: 50%;
+	font-size: 70px;
+	color: lightgreen;
+	text-align: center;
+	position: relative;
+	top: 50px;
+	left: 50px;
+	border-width: 5px;
+	border-style: inset; 
+	border-color: orange;
+	border: 3px solid blue;
+}
+#ban{
+	height: 200px;
+	background: rgb(8, 86, 88);
+}

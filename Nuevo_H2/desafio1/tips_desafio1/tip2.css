@@ -1,0 +1,26 @@
+#principal{
+	width: 50%;
+	height: 700px;
+	background: rgb(35, 182, 54);
+	float: left;
+}
+article{
+	color: rgb(180, 40, 110);
+	width: 40%;
+	border: 1px solid orange;
+	float: left;
+	margin: 22px;
+	padding: 10px;
+	background: rgb(160, 185, 14);
+}
+article img{
+	width: 200px;
+	float: right;
+}
+aside{
+	width: 50%;
+	background: rgb(194, 31, 186);
+	float: right;
+	height: 700px;
+	text-align: center;
+}
