@@ -1,0 +1,34 @@
+p{
+	color: green;
+}
+#letras-rojas{
+	color: red;
+}
+div p{
+	background: blue;
+	color: white;
+}
+/*selector hijo directo*/
+body > p{
+	background: yellow;
+}
+/*selector hermano adyacente*/
+p + p{
+	background: purple;
+}
+/*selector hermano general*/
+p ~ p{
+	background: orange;
+}
+/*selector atributo presente*/
+a[class]{
+	background: pink;
+}
+/*selector atributo igual*/
+a[class="otro"]{
+	background: gray;
+}
+/*selector atributo contenido*/
+a[href*="m"]{
+	background: turquoise;
+}

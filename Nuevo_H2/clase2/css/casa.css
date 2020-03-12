@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+.fachada{
+    width: 500px;
+    height: 500px;
+    background: silver;
+    margin: 100px auto;
+    position: relative;
+    top: 200px;
+}
+.techo:after{
+    content: '';
+    border-top: 300px solid transparent;
+    border-right: 300px solid transparent;
+    border-bottom: 300px solid black;
+    border-left: 300px solid transparent;
+}
+.techo{
+    position: absolute;
+    top: -300px;
+    right: -40px;
+    z-index: 1;
+}

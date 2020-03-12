@@ -1,0 +1,191 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	font-family: sans-serif;
+}
+header{
+	height: 90px;
+	background: #783dbd;
+	position: relative;
+}
+.margenes{
+	width: 900px;
+	margin: auto;
+	padding: 15px 0;
+}
+div > figure{
+	float: left;
+}
+div > nav{
+	float: right;
+	margin-top: 15px;
+}
+div > nav li{
+	display: inline-block;
+	margin: 0 5px;
+	padding: 5px;
+}
+div > nav li:nth-child(2n+1){
+	background: silver;
+}
+div > nav li:last-child{
+	background: #f2af00;
+	text-shadow:  2px 2px 1px gray;
+	border-radius: 5px
+}
+div > nav li:hover{
+	background: #e93d57;
+}
+div > nav li:active{
+	background: #b5236c;
+}
+a[href="#"]{
+	color: white;
+	text-decoration: none;
+}
+#franjas{
+	clear: both;
+	position: absolute;
+	bottom: 0;
+	/*width: 25%;*/
+}
+#franjas div{
+	width: 288px;
+	height: 10px;
+	float: left;
+}
+#franjas div:first-child{
+	background: #f2af00;
+}
+#franjas div:nth-child(2){
+	background: #e93d57;
+}
+#franjas div:nth-child(3){
+	background: #b5236c;
+}
+#franjas div:nth-child(4){
+	background: #4e294b;
+}
+#datos {
+	margin-top: 50px;
+}
+#datos input:last-child{
+	margin-top: 20px;
+	background: #f2af00;
+	text-shadow:  2px 2px 1px gray;
+	border-radius: 5px
+}
+#destinos{
+	/*background: #e5e5e5;*/
+	background-image: url("../img/Lighthouse.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	clear: both;
+	padding: 3em 7em;
+	height: 300px;
+}
+.destinos-fondo{
+	width: 100%;
+	height: 100%;
+	/*background: rgba(200,0,0,.5);*/
+}
+.formulario-destino{
+	background: white;
+	/*box-shadow: ejeX ejeY Desenfoque color*/
+	box-shadow: 0px 0px 30px rgba(0,0,0,.3);
+}
+
+form[name="frm-destino"]{
+	padding: 30px;
+}
+form[name="frm-destino"] p{
+	width: 600px;
+	float: left;
+	color: purple;
+	font-weight: bold;
+	text-shadow: 5px 5px 4px rgba(10,10,10,.5);
+}
+form[name="frm-destino"] p + div{
+	float: right;
+}
+form[name="frm-destino"] p + div a{
+	background: #381760;
+	padding: 10px 15px;
+	border-radius: 5px;
+}
+form[name="frm-destino"] > div:nth-child(2){
+	padding-bottom: 20px;
+}
+form[name="frm-destino"] > div:nth-child(3){
+	width: 100%;
+	clear: both;
+	margin-top: 20px;
+	border: 1px solid gray;
+	padding: 5px;
+}
+input[name="destino"]{
+	width: 100%;
+	border-bottom: 1px solid gray;
+	padding: 10px 0;
+}
+input[type="submit"]{
+	background: #783dbd;
+	padding: 10px 15px;
+	border-radius: 5px;
+}
+#ofertas{
+	padding: 3em 7em;
+	background:#221449;
+	height: 200px;
+}
+#ofertas > div{
+	width: 225px;
+	float: left;
+	margin: 10px;
+	position: relative;
+}
+#ofertas > div > img {
+	width: 100%;
+}
+.estrellas{
+	position: absolute;
+	bottom: 10px;
+	left: 2px;
+}
+.estrellas img{
+	width: 15px;
+}
+hr{
+	border: 1px solid white;
+}
+h3{
+	color: white;
+	font-weight: lighter;
+}
+.imagen-en-movimiento{
+	transition: transform 3s;
+}
+.imagen-en-movimiento:hover{
+	transform: rotateY(90deg);
+}
+.imagen-escalando:hover{
+	transform: scale(2);
+	transition: transform 0.1s;
+}
+.imagen-inclinada:hover{
+	transform: skew(10deg);
+	transition: transform 0.1s;
+}
+.imagen-animada:hover{
+	transform: translate(1000px);
+	transition: transform 0.5s;
+}
+#principal > div {
+	width: 800px;
+	height: 400px;
+	background: red;
+	margin: auto;
+	position: relative;
+}

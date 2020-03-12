@@ -1,0 +1,108 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	font-family: sans-serif;
+}
+header{
+	background: #783dbd;
+	height: 80px;
+	padding: 10px 0;
+	position: relative;
+}
+.margenes{
+	width: 80%;
+	margin: auto;
+}
+.margenes > figure{
+	float: left;
+}
+figure + nav{
+	float: right;
+	position: relative;
+	top: 10px;
+}
+nav li{
+	display: inline-block;
+	margin: 5px;
+	padding: 10px;
+	border-radius: .5em;
+}
+nav li > a{
+	color: white;
+	text-decoration: none;
+	text-shadow: 5px 5px 2px rgba(0,0,0,.6);
+}
+nav li:last-child{
+	background: #f2af00;
+}
+nav li:last-child:hover{
+	box-shadow: inset 0px 0px 20px rgba(10,10,10,.4);
+}
+.margenes + .franjas{
+	clear: both;
+	position: absolute;
+	bottom: 0;
+}
+.margenes + .franjas div{
+	width: 283.5px;
+	height: 8px;
+	float: left;
+}
+.margenes + .franjas div:first-child{
+	background: #f2af00;
+}
+.margenes + .franjas div:nth-child(2){
+	background: #e43e4e;
+}
+.margenes + .franjas div:nth-child(3){
+	background: #b5226c;
+}
+.margenes + .franjas div:nth-child(4){
+	background: #552749;
+}
+#principal{
+	height: 500px;
+	background-image: url("../img/Lighthouse.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top right;
+	background-attachment: fixed;
+}
+#principal > div{
+	width: 600px;
+	height: 300px;
+	background: white;
+	margin: auto;
+	position: relative;
+	top: 50px;
+}
+#destinos{
+	height: 300px;
+	background:linear-gradient(red,yellow);
+}
+.foto-destino{
+	width: 200px;
+	height: 180px;
+	float: left;
+	margin: 3em 1em;
+}
+img[title="destino"]{
+	width: 100%;
+	transition: transform 1s linear;
+}
+.imagen-rotando:hover{
+	transform: rotate(30deg);
+}
+.imagen-estirada{
+	filter: grayscale(100%) blur(10px);
+}
+.imagen-estirada:hover{
+	transform: skew(60deg);
+}
+.imagen-escalando:hover{
+	transform: scale(1.2);
+}
+.imagen-en-movimiento:hover{
+	transform: translate(100px);
+}

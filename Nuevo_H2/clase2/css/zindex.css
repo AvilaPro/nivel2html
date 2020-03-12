@@ -1,0 +1,35 @@
+.d-box{
+    position: relative;
+    z-index: 1;
+    border: dashed;
+    height: 80px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.g-box{
+    position: absolute;
+    z-index: 3;
+    background: gold;
+    width: 80%;
+    left: 60px;
+    top: 30px;
+}
+.b-box{
+    position: absolute;
+    z-index: 2;
+    background: blue;
+    width: 20%;
+    left: 65%;
+    top: -10px;
+    height: 70px;
+    opacity: 0.7;
+}
+.visible{
+    visibility: visible;
+}
+.no-visible{
+    visibility: hidden;
+}
+.no-visible:hover{
+    visibility: visible;
+}
