@@ -1,0 +1,53 @@
+Selectores Avanzados:
+
+Selectores Comunes o Basicos:
+
+	Selector de tipo: <h1></h1> ; h1 {}
+	Selector de Clase: <h2 class="nombreClase"></h2> ; .nombreClase{}
+	Selector de ID: <h3 id="nombreID"></h3> ; #nombreID {}
+	Selector Universal (CSS): * {}
+
+Hijos Descendientes o Combinadores:
+	->Relacion Padre-Hijo
+	 Combinador de descendientes => "Espacio" ( ): Afecta a todos los elementos (B) descendientes del primer elemento(A): A B{}
+	Combinador de hijo Directo => "mayor que" (>): Selecciona los elementos que son hijos directos del primer elemento: A > B {}
+
+	->Relacion entre hermanos
+	Selector general de hermanos => "tilde" (~): Selecciona hermanos. Esto quiere decir que el segundo elemento (B) sigue al primero (aunque no necesariamente de forma inmediata) y ambos comparten el mismo elemento padre: A ~ B {}
+
+	->Relacion de Atributo
+	Atributo presente => [nombreAtributo]: Selecciona los elementos que tienen establecido un atributo llamado "nombreAtributo": 
+	<h1 class="a1"></h1>, 
+	<h1 class="a2"></h1> ; 
+	h1[class] {} (afectados todos los h1 con class)
+
+	Atributo igual o Presente y mismo valor => [nombreAtributo=valor]: Selecciona los elementos que tienen establecido un atributo llamado "nombreAtributo" con un valor igual a "valor": 
+	<h1 class="a1"></h1>, 
+	<h1 class="a2"></h1>, 
+	<h1 class="a1"></h1> ; 
+	h1[class="a1"] {} ; (afectado el primer y ultimo h1)
+
+	Atributo contenido general => [nombreAtributo*="valor"]: Selecciona los elementos que tienen establecido un atributo llamado nombreAtributo y cuyo "valor" esta presente en el nombre de dicha propiedad: 
+	<h1 class="alfabeta1"></h1>, 
+	<h1 class="alfabeta2"></h1>, 
+	<h1 class="beta1"></h1> ; 
+	h1[class*="beta"] {} ; (afectado todos los h1, puesto que en todos el valor "beta" esta presente entre las palabra que lo definen).
+
+	Atributo contenido particular [nombreAtributo~="valor"]: Selecciona los elementos que tienen establecido un atributo llamado nombreAtributo y cuyo "valor" esta presente separado por espacios en blanco en la que al menos una de ellas es exactamente igual al "valor": 
+	<h1 class="alfabeta1 beta"></h1>, 
+	<h1 class="alfabeta2 beta"></h1>, 
+	<h1 class="beta1"></h1> ; 
+	h1[class*="beta"] {} ; (afectado todos los dos primeros h1, puesto solo en estos el valor "beta" esta presente separado por espacios y exactamente igual.).
+
+	Pseudo Clases:
+	:link y :visited => Estas pseudo clases solo aplican a elementos de tipo enlace. :link aplica a todos los enlaces que todavia NO han sido visitados por el usuario. :visited aplica a todos los enlaces que han sido visitados al menos una vez por el usuario.
+	:hover => se activa cuando el usuario pasa el raton SOBRE el elemento
+	:active => se activa cuando el usuario mantiene presionado el click sobre el elemento.
+	:focus => se activa cuando el elemento tiene el foco del navegador, es decir, cuando el elemento esta seleccionado. Normalmente aplica a elementos de tipo <input> de los formularios.
+	Estructura y Posicion
+	:first-child => selecciona el primer elemento que sea hijo de un elemento.
+	:last.child => selecciona al ultimo elemento hijo de algun elemento.
+	:first-of-type => selecciona al primer elemento hijo de ese tipo
+	:last-of-type => selecciona al ultimo elemento hijo de ese tipo
+	:nth-child(#) => selecciona el elemento nodo hijo especificado
+	:not => no da un estilo al elemento especificado. Los que no cumplen con la condicion seran afectados.
