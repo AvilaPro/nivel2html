@@ -1,0 +1,13 @@
+/*estilo para el body*/
+body {
+    background: red;
+}
+/* div blockquote p{
+    background-color: aqua;
+} */
+h1, h2, h3{
+    color: yellow;
+}
+p{
+    color: #e8bd20;
+}
