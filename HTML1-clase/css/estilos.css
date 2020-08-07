@@ -1,13 +1,85 @@
 /*estilo para el body*/
 body {
-    background: red;
+    background-image: url("../img/background_stars.jpg");
 }
-/* div blockquote p{
-    background-color: aqua;
-} */
-h1, h2, h3{
+header {
+    background-color: black;
+    height: 70px;
+}
+h1 {
+    text-align: center;
+}
+#contenedor_princ {
+    display: inline-block;
+    height: 1400px;
+}
+#aside_izq {
+    height: 100%;
+    width: 15%;
+    float: left;
+    background-color: #F2552C;
+}
+#aside_der {
+    height: 100%;
+    width: 15%;
+    float: right;
+    background-color: #e03131;
+}
+#secc_principal {
+    width: 70%;
+}
+
+
+h1, h2, h3, h4{
     color: yellow;
+}
+#introduccion {
+    background-color: transparent;
+}
+span {
+    color: #e8bd20
 }
 p{
     color: #e8bd20;
+}
+a {
+    font-weight: bold;
+    text-decoration: none;
+}
+a:link {
+    color: white;
+}
+a:visited {
+    color: #e03131;
+}
+a:hover {
+    color: yellow;
+}
+a:active {
+    color: aqua;
+}
+
+footer {
+    height: 200px;
+    background-color: black;
+    text-align: center;
+}
+#vinculos_footer {
+    display: inline;
+}
+footer div a {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+
+
+
+
+#encabezamiento {
+    background-color: aqua;
+}
+#menu {
+    background-color: aquamarine;
 }
