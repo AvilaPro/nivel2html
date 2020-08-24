@@ -91,9 +91,9 @@ footer{
 	padding: 20px;
 }
 .imagen-relativa{
-	position: fixed;
+	/*position: fixed;*/
 	top: 80px;
-	right: ;
+	
 	left: 100px;
-	bottom: ;
+	
 }

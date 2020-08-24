@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/estilos.css">
+  <title>Agregar Personaje</title>
+</head>
+<body>
+  <form action="" method="post">
+    <h5>Introduzca los datos del personaje</h5>
+    <label for="">Nombre:</label>
+    <input type="text" name="nombre" id="nombre" size="15" maxlength="10" required><br><br>
+    <label for="">Pelicula:</label>
+    <input type="text" name="pelicula" id="pelicula" size="15" maxlength="20"> <br><br>
+    <label for="">Año</label>
+    <input type="text" name="año" id="año" placeholder="indica el año" disabled> <br><br>
+    <label for="">Indique Clave:</label>
+    <input type="password" placeholder="Clave" name="clave" id="clave"><br><br>
+    <label for="">Indique a que grupo pertenece:</label>
+    <select name="tipo_fuerza" id="">
+      <option value="1">Jedi</option>
+      <option value="2">Sith</option>
+    </select><br><br>
+    <label for="">Indique el sexo:</label> <br>
+    <input type="radio" name="sexo_personaje" value="m" id=""><label for="">Masculino</label>  <br>
+    <input type="radio" name="sexo_personaje" value="f" id=""> <label for="">Femenino</label>  <br>
+    <input type="radio" name="sexo_personaje" value="n" id=""> <label for="">No definido</label>  <br><br>
+    <label for="">Seleccione las armas que domina:</label><br>
+    <input type="checkbox" name="sable" id=""> <label for="">Sable de luz </label> <br>
+    <input type="checkbox" name="blaster" id=""> <label for="">Blaster Laser</label>  <br>
+    <input type="checkbox" name="fuerza" id=""> <label for="">La FUERZA</label>  <br>
+    <input type="checkbox" name="pelea" id=""> <label for="">Pelea</label>  <br><br>
+    <label for="">Seleccione un color:</label>
+    <input type="color" name="color_favorito" id="" value="#ff0000"><br><br>
+    <label for="">Fecha de cumpleaños:</label>
+    <input type="date" name="cumpleaños" id=""><br><br>
+    <label for="">Correo:</label>
+    <input type="email" name="correo" id=""><br><br>
+    <label for="">Archivo:</label>
+    <input type="file" name="documento" id=""><br><br>
+    <label for="">numero:</label>
+    <input type="number" name="numero" id=""><br><br>
+    <label for="">Rango:</label>
+    <input type="range" name="rango" id="" min="1" max="100"><br><br>
+
+    <input type="button" value="Boton1">
+    <input type="submit" value="Enviar Informacion">
+    <input type="reset" value="resetear campos">
+
+  </form>
+</body>
+</html>

@@ -56,7 +56,7 @@ h1 {
 h2 {
     text-decoration: underline;
 }
-h1, h2, h3, h4{
+h1, h2, h3, h4, h5{
     font-family: 'Pathway Gothic One';
     color: yellow;
 }
@@ -98,6 +98,19 @@ a:active {
 li {
     color: #e8bd20;
     list-style: none;
+}
+label {
+    color: white;
+}
+
+/*Estilo para tabla*/
+table {
+    color: white;
+    background-color: #50555b;
+}
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
 }
 
 /*estilo para el pie de pagina*/

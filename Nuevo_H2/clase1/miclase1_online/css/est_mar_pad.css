@@ -1,0 +1,32 @@
+div div {
+  width: 10%;
+  /*Margin auto*/
+  /* margin: auto; */
+  margin-left: 200px;
+  text-align: center;
+}
+img {
+  /* margin-top: 20px;
+  margin-bottom: 30px;
+  margin-left: 100px; 
+  margin-right: 300px; */
+  /*TOP RIGHT BOTTOM LEFT*/
+  /*Definiendo los cuatro lados*/
+  /* margin: 20px 300px 50px 200px; */
+  /*Definiendo lados pares*/
+  /* margin: 100px 400px; */
+  /*Margen heredado (inherit)*/
+  margin: inherit;
+  padding: 50px 100px;
+  border: 1px solid red;
+}
+#cont1 {
+  width: 500px;
+  background-color: khaki;
+}
+#cont2 {
+  width: 500px;
+  padding: 50px;
+  background-color: lightcoral;
+  box-sizing: border-box;
+}
